@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container page-form">
+    <form id="login-form" action="/auth/register" method="post">
+        <!--        redirect to /auth/login on submit form-->
+        <!--        has to be post method so that password is not shown in url-->
+        <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="text" id="email" class="form-control" name="email">
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" class="form-control" name="password">
+        </div>
+
+        <button type="submit" class="btn btn-success">Sign up</button>
+    </form>
+</div>
+{% endblock %}
