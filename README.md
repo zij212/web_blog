@@ -13,7 +13,7 @@ A user can sign up for an account, log in, create blogs, publish blog posts, and
 - /posts/<string:blog_id>
 - /posts/new/<string:blog_id>
 
-Things that are I learned from this project:
+Things that I learnt from this project:
 - rendering template using HTML and CSS and JinJa  
 - redirect after submitting a form  
 - interacting with MongoDB  
